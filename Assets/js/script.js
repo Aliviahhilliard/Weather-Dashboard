@@ -15,7 +15,7 @@ function getWeatherData(city) {
     // const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q={city-name},{state-code},{country-code}&limit={limit}&appid={faae1387f926a22107aa7707c37e99af
 //}`
   const queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
-
+// code from Weather-Dashboard/Assets/js/script.js: kept as comments for reference
 // //var apiKey = 'faae1387f926a22107aa7707c37e99af';
 // var city;
 // var queryURL = `http://api.openweathermap.org/data/2.5/weather?q={city-name}&appid={faae1387f926a22107aa7707c37e99af}`;
@@ -45,6 +45,7 @@ fetch(queryURL)
  * @param {Object} currentWeather - Current weather data
  */
 
+// Code from Weather-Dashboard/Assets/js/script.js: kept as comments for reference
 //     fetch(apiUrl)
 //     .then(response => response.json())
 //     .then(data => {
@@ -146,7 +147,7 @@ function addToSearchHistory(city) {
     cityElement.classList.add('city');
     searchHistoryDiv.appendChild(cityElement);
 }
-
+// Code from Weather-Dashboard/Assets/js/script.js: kept as comments for reference
   // Event listener for the search button
 // document.getElementById('search-button').addEventListener('click', () => {
 //     const cityInput = document.getElementById('city-input');
