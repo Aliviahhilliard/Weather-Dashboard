@@ -1,0 +1,49 @@
+/* Weather Dashboard Styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast .day {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.forecast .day img {
+  width: 50px;
+  height: 50px;
+}
+
+.forecast .day h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.forecast .day p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#current-weather {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
